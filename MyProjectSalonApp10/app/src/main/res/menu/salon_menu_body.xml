@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/home_icon" />
+        <item
+            android:id="@+id/nav_mysalon"
+            android:title="@string/my_salon"
+            android:icon="@drawable/ic_mybusiness"/>
+
+        <item
+            android:id="@+id/nav_create_salon"
+            android:title="Create Salon"
+            android:icon="@drawable/edite_salon_icon"/>
+
+        <item
+            android:id="@+id/nav_appointment"
+            android:title="@string/appointment"
+            android:icon="@drawable/appointment_icon"/>
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="@string/schedule"
+            android:icon="@drawable/shcedule_icon"/>
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_myaccount"
+                    android:title="@string/nyaccount"
+                    android:icon="@drawable/person_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/logout_icon"/>
+            </group>
+        </menu>
+    </item>
+</menu>
